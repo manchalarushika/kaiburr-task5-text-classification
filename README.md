@@ -44,6 +44,16 @@ Perform text classification on the **Comsumer Complaint Dataset** into the follo
 | SVM | ~XX% |
 
  **Best Model:** Logistic Regression 
+ 
+# Clone the repository
+git clone https://github.com/<your-username>/kaiburr-task5-text-classification.git
+cd kaiburr-task5-text-classification
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the code
+python task5.py
 
  ## Screenshots
  -Dataset load confirmation
@@ -59,6 +69,7 @@ Perform text classification on the **Comsumer Complaint Dataset** into the follo
 
  - Sample prediction output
    <img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/07d6f6d2-1e6e-41ef-ac41-6defdf54d58d" />
+
 
 
 
