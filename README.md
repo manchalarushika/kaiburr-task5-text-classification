@@ -1,12 +1,29 @@
-# kaiburr-task5-text-classification
-Kaiburr Assessment 2025 – Task 5 (Data Science Example)
+# kaiburr-task5-text-classification(Data Science Assessment 2025)
+This repository contains the submission for Kaiburr Recruitment Assessment 2025 – Task 5 (Data Science Example).
+The goal is to build and evaluate a machine-learning text-classification pipeline to categorize consumer complaint narratives into defined product categories.
 
 ## Objective
-Perform text classification on the **Comsumer Complaint Dataset** into the folloeing categories:
-1.Credit reporting, repair, or other
-2.Dept Collection
-3.Consumer Loan
-4.Mortgage
+Perform **text classification** on the [Consumer Complaint Database](https://catalog.data.gov/dataset/consumer-complaint-database) into the following categories:
+1.**Credit reporting, repair, or other**
+2.**Dept Collection**
+3.**Consumer Loan**
+4.**Mortgage**
+
+##Dataset Overview
+Source: Consumer Complaint Database – data.gov
+
+Format: CSV (ZIP) file with 300K + rows
+
+Columns Used:
+
+Product – target label
+
+Consumer complaint narrative – free-text input
+
+Subset: 50 000 rows sampled for faster processing
+
+Language: English
+
 
 ---
 ## Steps Implemented
