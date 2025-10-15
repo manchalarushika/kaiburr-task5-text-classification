@@ -46,14 +46,14 @@ Perform text classification on the **Comsumer Complaint Dataset** into the follo
  **Best Model:** Logistic Regression 
  
 # Clone the repository
-git clone https://github.com/<your-username>/kaiburr-task5-text-classification.git
+```git clone https://github.com/<your-username>/kaiburr-task5-text-classification.git```
 cd kaiburr-task5-text-classification
 
 # Install dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 # Run the code
-python task5.py
+```python task5.py```
 
  ## Screenshots
  -Dataset load confirmation
