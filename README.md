@@ -50,13 +50,19 @@ Perform text classification on the **Comsumer Complaint Dataset** into the follo
 git clone https://github.com/<your-username>/kaiburr-task5-text-classification.git
 ```
 
-```cd kaiburr-task5-text-classification```
+```
+cd kaiburr-task5-text-classification
+```
 
 # Install dependencies
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 # Run the code
-```python task5.py```
+```bash
+python task5.py
+```
 
  ## Screenshots
  -Dataset load confirmation
