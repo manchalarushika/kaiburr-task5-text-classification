@@ -4,25 +4,20 @@ The goal is to build and evaluate a machine-learning text-classification pipelin
 
 ## Objective
 Perform **text classification** on the [Consumer Complaint Database](https://catalog.data.gov/dataset/consumer-complaint-database) into the following categories:
-1.**Credit reporting, repair, or other**
-2.**Dept Collection**
-3.**Consumer Loan**
-4.**Mortgage**
+1. **Credit reporting, repair, or other**
+2. **Dept Collection**
+3. **Consumer Loan**
+4. **Mortgage**
 
 ##Dataset Overview
-Source: Consumer Complaint Database – data.gov
 
-Format: CSV (ZIP) file with 300K + rows
-
-Columns Used:
-
-Product – target label
-
-Consumer complaint narrative – free-text input
-
-Subset: 50 000 rows sampled for faster processing
-
-Language: English
+- **Source:** [Consumer Complaint Database – data.gov](https://catalog.data.gov/dataset/consumer-complaint-database)  
+- **Format:** CSV (ZIP) file containing ~300K complaints  
+- **Columns Used:**  
+  - `Product` → Target label  
+  - `Consumer complaint narrative` → Text data for classification  
+- **Sample Used:** 50,000 rows for efficient computation  
+- **Language:** English 
 
 
 ---
