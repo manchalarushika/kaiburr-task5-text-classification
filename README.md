@@ -14,10 +14,12 @@ Perform text classification on the **Comsumer Complaint Dataset** into the follo
    - Dataset overview  
    - Class distribution plots  
    - Text length distribution
+
 2.**Text Preprocessing**  
    - Lowercasing, punctuation removal, lemmatization  
    - Stopword removal  
    - Parallel text cleaning for faster processing
+
 3. **Feature Engineering**  
    - TF-IDF feature extraction (1–2 grams)  
 
