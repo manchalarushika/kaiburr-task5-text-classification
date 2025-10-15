@@ -67,6 +67,7 @@ python task5.py
  ## Screenshots
  -Dataset load confirmation
  <img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/d5c56535-faa2-40ec-9057-7484aa831496" />
+ 
  -Class distribution plot
  <img width="1855" height="900" alt="image" src="https://github.com/user-attachments/assets/e9cdd615-e9ca-4862-85ad-0999782ced01" />
 
