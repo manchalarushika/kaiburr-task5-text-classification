@@ -12,7 +12,7 @@ Perform multi-class text classification of customer complaints into the followin
 4. **Mortgage**
 ---
 
-##Dataset Overview
+## Dataset Overview
 
 - **Source:** [Consumer Complaint Database – data.gov](https://catalog.data.gov/dataset/consumer-complaint-database)  
 - **Format:** CSV (ZIP) file containing ~300K rows
@@ -22,20 +22,26 @@ Perform multi-class text classification of customer complaints into the followin
 - **Sample Used:** 50,000 rows for efficient computation  
 - **Language:** English 
 
+<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/d5c56535-faa2-40ec-9057-7484aa831496" />
+
 ---
 
 ## Workflow Implemented
 
-###1.Exploratory Data Analysis (EDA)
+### 1.Exploratory Data Analysis (EDA) and Feature Engineering
 - Dataset loading & preview  
 - Product category distribution  
 - Complaint length histogram
+
+  <img width="1855" height="900" alt="image" src="https://github.com/user-attachments/assets/e9cdd615-e9ca-4862-85ad-0999782ced01" />
 
 ## 2.Text Pre-Processing
 - Lower-casing & punctuation removal  
 - Stopword removal using **NLTK**  
 - Lemmatization using **WordNetLemmatizer**  
-- Multiprocessing for parallel text cleaning  
+- Multiprocessing for parallel text cleaning
+
+<img width="1852" height="892" alt="image" src="https://github.com/user-attachments/assets/ebc2a02f-6b7b-4e45-a40c-fb963e927822" />
 
 ### 3.Visualization (EDA Outputs)
 - Class distribution plot  
@@ -43,21 +49,29 @@ Perform multi-class text classification of customer complaints into the followin
 
 ### 4.Feature Engineering
 - **TF-IDF Vectorizer** (max features = 5000, 1–2 grams)  
-- **Label Encoding** for target values 
+- **Label Encoding** for target values
+  <img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/22d84f37-0ac1-42f2-87a2-c3e336676a95" />
+
 
 ### 5. Model Selection & Training
 - **Logistic Regression**  
 - **Multinomial Naive Bayes**  
 - **Linear SVM (LinearSVC)**  
-- Accuracy and runtime comparison 
+- Accuracy and runtime comparison
+  <img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/270e014b-81e5-404e-80b3-73ffc110b5f5" />
+
 
 ### 6.Model Evaluation
 - Accuracy, Precision, Recall, F1-Score  
 - Classification Report  
 - Confusion Matrix heatmap
+  <img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/e9df84b0-1b3f-44a8-a3c4-ea268da6e913" />
+
 
 ### 7.Prediction Demo
-- Custom text input → Predicted Category  
+- Custom text input → Predicted Category
+  <img width="1918" height="930" alt="image" src="https://github.com/user-attachments/assets/0bb22f78-efef-4d61-b303-2317812efe1f" />
+
 
 ### 8.Model Persistence
 - Saved trained model and TF-IDF vectorizer (`best_model.pkl`, `vectorizer.pkl`)
@@ -93,20 +107,30 @@ python task5.py
 ```
 
  ## Screenshots
-  -Dataset load confirmation
- <img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/d5c56535-faa2-40ec-9057-7484aa831496" />
+ 1)Exploratory Data Analysis (EDA) and Feature Engineering
+ <img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/88f6b329-07b4-4b83-8217-032baf1b2883" />
  
-  -EDA visualizations
- <img width="1855" height="900" alt="image" src="https://github.com/user-attachments/assets/e9cdd615-e9ca-4862-85ad-0999782ced01" />
+ 2)Text Pre-Processing
+ <img width="1918" height="930" alt="image" src="https://github.com/user-attachments/assets/0c8e1946-dd3e-44ef-aa15-31bb7e839752" />
 
- - Model accuracy bar chart
-   <img width="1860" height="897" alt="image" src="https://github.com/user-attachments/assets/e1a8d0f4-53e5-40ec-a2c7-c50663ad89c6" />
+ 3)Selection of Multi-Classification Model (Feature Engineering + Split)
+ <img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/c195f3a5-46fe-4d9b-9721-ab7218ae1f1e" />
+ 
+ 4)Comparison of Model Performance
+ <img width="1918" height="924" alt="image" src="https://github.com/user-attachments/assets/5ebffe62-e119-48a6-b1e9-7d3718a2c844" />
 
- - Confusion matrix & Classification report
-   <img width="1862" height="895" alt="image" src="https://github.com/user-attachments/assets/5f8f3863-285b-43d0-84eb-e91683a05b3e" />
+5)Model Evaluation
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/99f27767-4b57-41b1-ab15-7209aae14d22" />
 
- - Sample prediction output
-   <img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/07d6f6d2-1e6e-41ef-ac41-6defdf54d58d" />
+6. Prediction
+   <img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/dd166ad2-fc38-4a1e-9c1a-8464a27d86e3" />
+
+
+
+
+
+
+ 
 
 
 
